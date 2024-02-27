@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilisateurs de Personas</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>API Persona</h1>
+    </header>
+    <main class="secondary">
+        <section>
+            <h2>Utilisateurs de Personas</h2>
+            <div id="personaUsersContainer">
+            </div>
+            <div id="personaUsersAddContainer">
+                <h2>Créer nouvel utilisateur</h2>
+                <form id="addPersonaUser">
+                    <ul>
+                        <li>
+                            <label for="newusername">Entrez le nom du nouvel utilisateur</label>
+                            <input type="text" id="newusername">
+                        </li>
+                        <li>
+                            <label for="newuserage">Entrez l'âge du nouvel utilisateur</label>
+                            <input type="number" id="newuserage">
+                        </li>
+                    </ul>
+                    <button id="addUserButton" type="button">Ajouter nouvel utilisateur</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

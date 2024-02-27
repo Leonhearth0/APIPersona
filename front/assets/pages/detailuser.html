@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilisateurs de Persona - Modification</title>
+    <link rel="stylesheet" href="../css/detailuser.css">
+</head>
+
+<body>
+    <header>
+        <h1>API Persona</h1>
+    </header>
+    <main class="secondary">
+        <section>
+        <article id="displayarticle">
+            <h2>Information de l'utilisateur</h2>
+            <ul>
+                <li>
+                    <p id="name"></p>
+                </li>
+                <li>
+                    <p id="userage"></p>
+                </li>
+                <li>
+                    <div id="plist"></div>
+                </li>
+            </ul>
+        </article>
+    </section>
+        <article id="newPersonaAddContainer">
+        <h2>Créer et associer nouveau Persona</h2>
+        <form id="addnewPersona">
+            
+            <ul>
+                <li>
+                    <label for="newpersonaname">Entrez le nom du Persona</label>
+                    <input type="text" id="newpersonaname">
+                </li>
+                <li>
+                    <label for="newpersonaarcana">Entrez l'arcana du Persona</label>
+                    <input type="text" id="newpersonaarcana">
+                </li>
+                <li>
+                    <label for="newpersonalevel">Entrez le niveau du Persona</label>
+                    <input type="number" id="newpersonalevel">
+                </li>
+                <li>
+                    <label for="newpersonamoves">Entrez les attaques du Persona</label>
+                    <input type="text" id="newpersonamoves">
+                </li>
+            </ul>
+            <button id="addPersonaButton" type="button">Ajouter nouveau Persona</button>
+        </form>
+    </article>
+        <button id="returnButton" type="button">Retour à l'accueil</button>
+    </main>
+    <script src="../js/detail.js"></script>
+</body>
+
+
+</html>

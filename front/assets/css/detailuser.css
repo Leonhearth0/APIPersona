@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/wallpaperflare.com_wallpaper.jpg') center / cover;
+}
+
+header, #addPersonaButton, #returnButton {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 10px 0;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+h2 {
+    background-color: #fff;
+}
+
+main.secondary, #newPersonaAddContainer {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#displayarticle, #displaypersonaarticle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#displayarticle, #displaypersonaarticle, #newPersonaAddContainer {
+    background-color: #fff;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#displayarticle ul, #displaypersonaarticle ul, form ul {
+    list-style: none;
+    padding : 0;
+}
+
+#plist, #personamlist {
+    display: flex;
+    flex-direction: column;
+}
+
+#plist ul{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#personamlist ul{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;    
+}
+
+#plist li, #personamlist, form li {
+    padding-top: 5%;
+    margin-bottom: 10px;
+}
+
+#newPersonaAddContainer {
+    max-width: 50%;
+    border-color: black;
+    border-style: solid;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+#addnewPersona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#addPersonaButton, #returnButton {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#addPersonaButton:hover, #returnButton:hover {
+    background-color: #444;
+}
+
+.persona-delete, .persona-details {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.persona-delete:hover, .persona-details:hover {
+    background-color: #444;
+}
